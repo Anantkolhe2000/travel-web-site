@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,500;0,700;1,400;1,600&display=swap');
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    font-family:'Andada Pro', serif;
+}
+header{
+    height: 100vh;
+    border: 3px solid rgb(32, 30, 30) ;
+   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/pexels-header\ url.jpg);
+    background-position: center;
+}
+h1{
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+}
+header .logo{
+    color: white;
+    border-image: round;
+
+}
+ul a{
+    color: white;
+   
+    
+}
+
+nav h1{
+    float: left;
+}
+nav ul{
+    float:right;
+    
+}
+li{
+    display: inline-block;
+   padding-top: 15px;
+   border-bottom: 1px solid white;
+   
+    
+}
+nav::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+nav{
+   
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+html{
+    margin-top: 8px;
+  word-spacing: 6px;
+}
+div h2{
+    color: white;
+    padding-top: 290px;
+    width: 0px auto;
+}
+div p{
+    color: white;
+    text-transform: lowercase;
+}
+div.d1{
+   margin-left: 270px;
+   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+
+    
+}
+
+div h2{
+    margin-left: 210px;
+}
+div button{
+    margin-left: 280px;
+    padding: 12px 12px;
+    background: rgb(207, 146, 184);
+    
+    border-radius: 20px;
+}
+section{
+  background: rgb(156, 152, 152);
+  padding: 60px;
+  object-fit: cover;
+}
+.s2{
+    height: 270px;
+    
+    margin: 0px 100px;
+}
+.s2{
+    margin-bottom: 75px;
+}
+.s2 .s4{
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+}
+.s2 .s6{
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+    background: burlywood;
+    padding: 0px 10px;
+    box-shadow: 3px (rgba(123, 132, 211, 0.452))
+
+}
+.s7{
+    float: right;
+    width: 50%;
+    height: 100%;
+  
+}
+.s5{
+    float: right;
+    width: 50%;
+    height: 100%;
+    
+    background: burlywood;
+    
+    padding-left: 6px;
+    
+}
+.s4{
+    background: url(../img/pexels-box1.jpg);
+    background-position: center;
+   
+}
+.s7{
+    background: url(../img/pexels-box2.jpg);
+    background-position: center;
+    
+}
+.b2{
+    padding: 0px 6px;
+border-radius: 10px;
+padding: 8px 0px;
+padding-left: 12px;
+padding-right: 12px;
+
+
+}
+.b2:hover{
+    background-color: coral;
+ }
+.s5 p{
+    color: black;
+}
+.b3{
+   
+border-radius: 10px;
+padding: 8px 0px;
+padding-left: 12px;
+padding-right: 12px;
+
+}
+.b3:hover{
+    background-color: coral;
+}
+.s6 p{
+    color: black;
+}
+.s6{
+    padding-left: 6px;
+   
+}
+section::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.a11{
+   padding-bottom: 100px;
+   padding-right: 150px;
+   padding-left: 150px;
+  
+  
+   margin: 0px 170px;
+  
+   margin-top: 5px;
+   background: white
+    
+}
+.box{
+    width: 33.3333333333%;
+    padding: 11px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgb(44, 43, 43);
+
+
+}
+.box1{
+    float: left;
+   
+    background: rgb(43, 42, 42);
+   
+}
+.box2{
+    float: left;
+   
+    background: rgb(180, 49, 49);
+   
+}
+.box3{
+    float: right ;
+    
+    background: rgb(44, 43, 43);
+}
+.ss1 h{
+    color: wheat;
+}
+.box3 i{
+    color: rgb(230, 15, 15);
+}
+.box1 i{
+    color: rgb(187, 15, 15);
+}
+.logo i{
+    color: rgb(180, 49, 49);
+    
+    box-shadow: rgba(0,0,0,0.4);
+    
+
+}
+footer{
+    background: rgb(48, 46, 46);
+    padding: 20px 0px;
+}
+.social{
+    text-align: center;
+  
+}
+footer p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social i{
+    margin: 20px;
+}
+
+.m2{
+    background-color: rgb(37, 35, 35);
+  
+  
+}
+.aboutme{
+    background: rgb(44, 43, 43);
+ 
+    
+}
+.aboutdiv h2{
+    border-bottom: 3px solid brown;
+    color: black;
+    margin-left: 115px;
+    margin-left: 180px;
+  margin-right: 180px;
+  text-align: left;
+}
+.aboutdiv{
+    background: white;
+    text-align: center;
+    
+   
+}
+.aboutdiv p{
+    color: black;
+  padding-right: 100px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.aboutdiv{
+border: 2px solid green;
+}
